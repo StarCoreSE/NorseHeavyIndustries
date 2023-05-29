@@ -342,13 +342,13 @@ namespace Scripts
                     Tracer = new TracerBaseDef
                     {
                         Enable = true,
-                        Length = 0.001f, //
-                        Width = .15f, //
-                        Color = Color(red: 12, green: 1, blue: 0, alpha: .1f), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Length = 20f, //
+                        Width = .94f, //
+                        Color = Color(red: 25, green: 1, blue: 1, alpha: 1f), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
-                            "WeaponLaser", // Please always have this Line set, if this Section is enabled.
+                            "ProjectileTrailLine",					// Please always have this Line set, if this Section is enabled.
                         },
                         TextureMode = Normal, // Normal, Cycle, Chaos, Wave
                         Segmentation = new SegmentDef
@@ -372,13 +372,13 @@ namespace Scripts
                     {
                         Enable = true,
                         Textures = new[] {
-                            "WeaponLaser", // Please always have this Line set, if this Section is enabled.
+							"ProjectileTrailLine", // Please always have this Line set, if this Section is enabled.
                         },
                         TextureMode = Normal,
-                        DecayTime = 25, // In Ticks. 1 = 1 Additional Tracer generated per motion, 33 is 33 lines drawn per projectile. Keep this number low.
-                        Color = Color(red: 19, green: 19, blue: 8f, alpha: .35f),
-                        Back = false,
-                        CustomWidth = .5f,
+                        DecayTime = 1, // In Ticks. 1 = 1 Additional Tracer generated per motion, 33 is 33 lines drawn per projectile. Keep this number low.
+                        Color = Color(red: 13, green: 13, blue: 6f, alpha: 1f),
+                        Back = true,
+                        CustomWidth = 1.0f,
                         UseWidthVariance = false,
                         UseColorFade = true,
                     },
