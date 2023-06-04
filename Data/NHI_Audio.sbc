@@ -134,7 +134,7 @@
       </Id>
       <Category>SHOT</Category>
       <MaxDistance>5000</MaxDistance>
-      <Volume>1</Volume>
+      <Volume>0.75</Volume>
       <Loopable>false</Loopable>
       <PitchVariation>75</PitchVariation>
       <Waves>
