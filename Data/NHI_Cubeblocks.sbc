@@ -1706,7 +1706,7 @@ Lacks the Ability to Heal Shields and and Must Completely cool down after reachi
    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
      <Id>
        <TypeId>ConveyorSorter</TypeId>
-       <SubtypeId>Armor_Support_Test</SubtypeId>
+       <SubtypeId>Support_Module_Test</SubtypeId>
      </Id>
      <DisplayName>Armor Support Test</DisplayName>
      <Description>
@@ -1730,27 +1730,13 @@ Lacks the Ability to Heal Shields and and Must Completely cool down after reachi
        <Component Subtype="SteelPlate" Count="100" />
      </Components>
      <CriticalComponent Subtype="Computer" Index="0" />
-     <BlockPairName>Armor_Support_Test_Block</BlockPairName>
+     <BlockPairName>Support_Module_Test_Block</BlockPairName>
      <MirroringY>Z</MirroringY>
      <MirroringZ>Y</MirroringZ>
      <EdgeType>Light</EdgeType>
      <BuildTimeSeconds>25</BuildTimeSeconds>
      <DisassembleRatio>5</DisassembleRatio>
      <NavigationDefinition>Default</NavigationDefinition>
-     <WeaponDefinitionId Subtype="NHI_Weapon" />
-     <ResourceSinkGroup>Defense</ResourceSinkGroup>
-     <InventoryMaxVolume>1</InventoryMaxVolume>
-     <MinElevationDegrees>-15</MinElevationDegrees>
-     <MaxElevationDegrees>75</MaxElevationDegrees>
-     <MinAzimuthDegrees>-180</MinAzimuthDegrees>
-     <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
-     <IdleRotation>false</IdleRotation>
-     <AiEnabled>false</AiEnabled>
-     <MaxRangeMeters>10000</MaxRangeMeters>
-     <RotationSpeed>0.0005</RotationSpeed>
-     <ElevationSpeed>0.0002 </ElevationSpeed>
-     <MinFov>0.1</MinFov>
-     <MaxFov>1.04719755</MaxFov>
    </Definition>
 
 
