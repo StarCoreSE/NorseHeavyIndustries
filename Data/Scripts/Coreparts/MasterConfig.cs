@@ -10,7 +10,7 @@ namespace Scripts
             // Enable your definitions using the follow syntax:
             // PartDefinitions(Your1stDefinition, Your2ndDefinition, Your3rdDefinition);
             // PartDefinitions includes both weapons and phantoms
-            PartDefinitions(NHI_PD_Turret,
+            PartDefinitions(Support_Module_Test, NHI_PD_Turret,
             NHI_Light_Autocannon_Turret,
             NHI_Autocannon_Turret,
             NHI_Gatling_Laser_Turret,
