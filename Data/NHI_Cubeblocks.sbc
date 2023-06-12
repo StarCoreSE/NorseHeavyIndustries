@@ -1710,7 +1710,7 @@ Lacks the Ability to Heal Shields and and Must Completely cool down after reachi
      </Id>
      <DisplayName>Armor Support Test</DisplayName>
      <Description>
-       TEST
+       Armor Test
      </Description>
      <Icon>Textures\GUI\Icons\Emergency_Thruster.dds</Icon>
      <CubeSize>Large</CubeSize>
