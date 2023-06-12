@@ -50,13 +50,13 @@ namespace Scripts {
             {
                 Protection = GenericProt, //type of protection
                 Affected = ArmorPlus, // type of blocks protected
-                BlockRange = 3, //protection range (in block units)
-                MaxPoints = 10000, //Max protection pool size
-                PointsPerCharge = 100, // Number of points per "charge/inventory item"
-                UsablePerSecond = 1000, //Max consumed points per second
-                UsablePerMinute = 20000, //Max consumed points per minute
+                BlockRange = 5, //protection range (in block units)
+                MaxPoints = 9999999, //Max protection pool size
+                PointsPerCharge = 999999, // Number of points per "charge/inventory item"
+                UsablePerSecond = 1, //Max consumed points per second
+                UsablePerMinute = 2, //Max consumed points per minute
                 Overflow = 0.01f,//Portion of the damage overflowed on to the support block
-                Effectiveness = 0.85f, // What portion of the effect is applied to the block/damage.
+                Effectiveness = 1f, // What portion of the effect is applied to the block/damage.
                 ProtectionMin = 0.5f, // The min level of protection the user can set, values 0 or smaller default to 1
                 ProtectionMax = 2.5f, // the max level of protection the user can set, values 0 or smaller default to 1
             },
