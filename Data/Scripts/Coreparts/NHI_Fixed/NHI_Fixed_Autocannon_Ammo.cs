@@ -1548,6 +1548,7 @@ namespace Scripts
                     },
                 },
             },
+            AmmoAudio = new AmmoAudioDef
             {
                 TravelSound = "", // SubtypeID for your Sound File. Travel, is sound generated around your Projectile in flight
                 HitSound = "",
