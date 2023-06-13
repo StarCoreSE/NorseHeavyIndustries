@@ -1114,9 +1114,9 @@ namespace Scripts
                     Tracer = new TracerBaseDef
                     {
                         Enable = true,
-                        Length = 5f, //
+                        Length = 3f, //
                         Width = 0.5f, //
-                        Color = Color(red: 20f, green: 10f, blue: 10f, alpha: 0.75f), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Color = Color(red: 20f, green: 10f, blue: 10f, alpha: 0.5f), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
@@ -1147,8 +1147,8 @@ namespace Scripts
                             "ProjectileTrailLine", // Please always have this Line set, if this Section is enabled.
                         },
                         TextureMode = Normal,
-                        DecayTime = 3, // In Ticks. 1 = 1 Additional Tracer generated per motion, 33 is 33 lines drawn per projectile. Keep this number low.
-                        Color = Color(red: 16f, green: 6f, blue: 6f, alpha: 0.25f),
+                        DecayTime = 2, // In Ticks. 1 = 1 Additional Tracer generated per motion, 33 is 33 lines drawn per projectile. Keep this number low.
+                        Color = Color(red: 8f, green: 3f, blue: 3f, alpha: 0.25f),
                         Back = false,
                         CustomWidth = 0.25f,
                         UseWidthVariance = false,
@@ -1157,8 +1157,8 @@ namespace Scripts
                     OffsetEffect = new OffsetEffectDef
                     {
                         MaxOffset = 0,// 0 offset value disables this effect
-                        MinLength = 0.2f,
-                        MaxLength = 3,
+                        MinLength = 0.5f,
+                        MaxLength = 0.5f,
                     },
                 },
             },
@@ -1500,9 +1500,9 @@ namespace Scripts
                     Tracer = new TracerBaseDef
                     {
                         Enable = true,
-                        Length = 5f, //
+                        Length = 3f, //
                         Width = 0.2f, //
-                        Color = Color(red: 16f, green: 20f, blue: 10f, alpha: 0.75f), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Color = Color(red: 16f, green: 20f, blue: 10f, alpha: 0.5f), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
@@ -1533,8 +1533,8 @@ namespace Scripts
                             "ProjectileTrailLine", // Please always have this Line set, if this Section is enabled.
                         },
                         TextureMode = Normal,
-                        DecayTime = 3, // In Ticks. 1 = 1 Additional Tracer generated per motion, 33 is 33 lines drawn per projectile. Keep this number low.
-                        Color = Color(red: 10f, green: 16f, blue: 6f, alpha: 0.25f),
+                        DecayTime = 2, // In Ticks. 1 = 1 Additional Tracer generated per motion, 33 is 33 lines drawn per projectile. Keep this number low.
+                        Color = Color(red: 5f, green: 8f, blue: 3f, alpha: 0.25f),
                         Back = false,
                         CustomWidth = 0,
                         UseWidthVariance = false,
@@ -1548,7 +1548,6 @@ namespace Scripts
                     },
                 },
             },
-            AmmoAudio = new AmmoAudioDef
             {
                 TravelSound = "", // SubtypeID for your Sound File. Travel, is sound generated around your Projectile in flight
                 HitSound = "",
