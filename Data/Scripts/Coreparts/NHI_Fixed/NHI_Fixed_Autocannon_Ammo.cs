@@ -375,8 +375,8 @@ namespace Scripts
                             "ProjectileTrailLine", // Please always have this Line set, if this Section is enabled.
                         },
                         TextureMode = Normal,
-                        DecayTime = 3, // In Ticks. 1 = 1 Additional Tracer generated per motion, 33 is 33 lines drawn per projectile. Keep this number low.
-                        Color = Color(red: 16f, green: 6f, blue: 6f, alpha: 0.25f),
+                        DecayTime = 2, // In Ticks. 1 = 1 Additional Tracer generated per motion, 33 is 33 lines drawn per projectile. Keep this number low.
+                        Color = Color(red: 8f, green: 3f, blue: 3f, alpha: 0.25f),
                         Back = false,
                         CustomWidth = 0.25f,
                         UseWidthVariance = false,
@@ -761,8 +761,8 @@ namespace Scripts
                             "ProjectileTrailLine", // Please always have this Line set, if this Section is enabled.
                         },
                         TextureMode = Normal,
-                        DecayTime = 3, // In Ticks. 1 = 1 Additional Tracer generated per motion, 33 is 33 lines drawn per projectile. Keep this number low.
-                        Color = Color(red: 10f, green: 16f, blue: 6f, alpha: 0.25f),
+                        DecayTime = 2, // In Ticks. 1 = 1 Additional Tracer generated per motion, 33 is 33 lines drawn per projectile. Keep this number low.
+                        Color = Color(red: 5f, green: 8f, blue: 3f, alpha: 0.25f),
                         Back = false,
                         CustomWidth = 0,
                         UseWidthVariance = false,
