@@ -36,7 +36,6 @@ namespace Scripts
             EXP_BFG_Ammo_Cannon,
             EXP_Spinal_Ion_Cannon,
             EXP_Fixed_Scattergun);
-            SupportDefinitions(Support_Module_Test);
 
 
         }
