@@ -73,7 +73,7 @@
       </Id>
       <Category>SHOT</Category>
       <MaxDistance>5000</MaxDistance>
-      <Volume>0.75</Volume>
+      <Volume>0.50</Volume>
       <Loopable>true</Loopable>
       <PitchVariation>75</PitchVariation>
       <DistantSounds>
@@ -95,7 +95,7 @@
       </Id>
       <Category>SHOT</Category>
       <MaxDistance>5000</MaxDistance>
-      <Volume>0.75</Volume>
+      <Volume>0.50</Volume>
       <Loopable>true</Loopable>
 
       <PitchVariation>25</PitchVariation>
@@ -536,7 +536,7 @@
       </Id>
       <Category>SHOT</Category>
       <MaxDistance>7000</MaxDistance>
-      <Volume>3</Volume>
+      <Volume>0.3</Volume>
       <Loopable>false</Loopable>
       <PitchVariation>15</PitchVariation>
       <DistantSounds>
@@ -558,7 +558,7 @@
       </Id>
       <Category>SHOT</Category>
       <MaxDistance>7000</MaxDistance>
-      <Volume>2</Volume>
+      <Volume>0.2</Volume>
       <Loopable>false</Loopable>
 
       <PitchVariation>25</PitchVariation>
