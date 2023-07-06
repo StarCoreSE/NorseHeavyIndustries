@@ -600,7 +600,20 @@ A Heavy Battleship Cannon, Can fire either an HE Shell or Canister Shot
      <Size x="7" y="6" z="7" />
      <ModelOffset x="0" y="0" z="0" />
      <Model>Models\Large\Battleship_Cannon_Mk3.mwm</Model>
+
      <Components>
+
+				<Component Subtype="Construction" Count="2750" />
+				<Component Subtype="GravityGenerator" Count="300" />
+				<Component Subtype="Computer" Count="180" />
+				<Component Subtype="SmallTube" Count="260" />
+				<Component Subtype="Motor" Count="180" />
+				<Component Subtype="LargeTube" Count="360" />
+				<Component Subtype="MetalGrid" Count="650" />
+				<Component Subtype="Construction" Count="3750" />
+				<Component Subtype="SteelPlate" Count="1000" />
+
+	<!-- 
         <Component Subtype="SteelPlate" Count="1100" />
 	      <Component Subtype="Construction" Count="3750" />
 	      <Component Subtype="Computer" Count="180" />		 
@@ -609,9 +622,12 @@ A Heavy Battleship Cannon, Can fire either an HE Shell or Canister Shot
         <Component Subtype="LargeTube" Count="360" />
         <Component Subtype="MetalGrid" Count="650" />		 
         <Component Subtype="Construction" Count="3750" />
-        <Component Subtype="SteelPlate" Count="1000" />
+        <Component Subtype="SteelPlate" Count="1000" />-->
+
      </Components>
+
      <CriticalComponent Subtype="Motor" Index="0" />
+
      <MountPoints>
         <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="7.0" EndY="2.0"/>
         <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="7.0" EndY="2.0"/>
@@ -653,18 +669,34 @@ A Heavy Battleship Cannon, Can fire either an HE Shell or Canister Shot
      <Size x="7" y="4" z="7" />
      <ModelOffset x="0" y="0" z="0" />
      <Model>Models\Large\Battleship_Cannon_Mk3_Surface.mwm</Model>
+
      <Components>
-       <Component Subtype="SteelPlate" Count="1100" />
-       <Component Subtype="Construction" Count="3750" />
-       <Component Subtype="Computer" Count="180" />
-       <Component Subtype="SmallTube" Count="260" />
-       <Component Subtype="Motor" Count="180" />
-       <Component Subtype="LargeTube" Count="360" />
-       <Component Subtype="MetalGrid" Count="650" />
-       <Component Subtype="Construction" Count="3750" />
-       <Component Subtype="SteelPlate" Count="1000" />
+
+				<Component Subtype="Construction" Count="2750" />
+				<Component Subtype="GravityGenerator" Count="300" />
+				<Component Subtype="Computer" Count="180" />
+				<Component Subtype="SmallTube" Count="260" />
+				<Component Subtype="Motor" Count="180" />
+				<Component Subtype="LargeTube" Count="360" />
+				<Component Subtype="MetalGrid" Count="650" />
+				<Component Subtype="Construction" Count="3750" />
+				<Component Subtype="SteelPlate" Count="1000" />
+
+	<!-- 
+        <Component Subtype="SteelPlate" Count="1100" />
+	      <Component Subtype="Construction" Count="3750" />
+	      <Component Subtype="Computer" Count="180" />		 
+        <Component Subtype="SmallTube" Count="260" />
+        <Component Subtype="Motor" Count="180" />
+        <Component Subtype="LargeTube" Count="360" />
+        <Component Subtype="MetalGrid" Count="650" />		 
+        <Component Subtype="Construction" Count="3750" />
+        <Component Subtype="SteelPlate" Count="1000" />-->
+
      </Components>
+
      <CriticalComponent Subtype="Motor" Index="0" />
+
      <MountPoints>
        <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="7.0" EndY="2.0"/>
        <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="7.0" EndY="2.0"/>
@@ -705,7 +737,21 @@ A Heavy Battleship Cannon, Fires an HE Shell
      <Size x="5" y="3" z="5" />
      <ModelOffset x="0" y="0" z="0" />
      <Model>Models\Large\Mk2_Battleship_Cannon_Refresh.mwm</Model>
+
      <Components>
+
+		<Component Subtype="SteelPlate" Count="150" />
+		<Component Subtype="Construction" Count="200" />
+		<Component Subtype="GravityGenerator" Count="178" />
+		<Component Subtype="Computer" Count="100" />
+		<Component Subtype="SmallTube" Count="200" />
+		<Component Subtype="Motor" Count="100" />
+		<Component Subtype="LargeTube" Count="200" />
+		<Component Subtype="MetalGrid" Count="300" />
+		<Component Subtype="Construction" Count="1200" />
+		<Component Subtype="SteelPlate" Count="700" />
+
+	<!--
         <Component Subtype="SteelPlate" Count="550" />
         <Component Subtype="Construction" Count="1875" />
         <Component Subtype="Computer" Count="90" />
@@ -714,9 +760,12 @@ A Heavy Battleship Cannon, Fires an HE Shell
         <Component Subtype="LargeTube" Count="180" />
         <Component Subtype="MetalGrid" Count="325" />
         <Component Subtype="Construction" Count="1875" />
-        <Component Subtype="SteelPlate" Count="500" />
+        <Component Subtype="SteelPlate" Count="500" />-->
+
      </Components>
+
      <CriticalComponent Subtype="Motor" Index="0" />
+
      <MountPoints>
         <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="5.0" EndY="1.0"/>
         <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="5.0" EndY="1.0"/>
@@ -757,18 +806,35 @@ A Heavy Battleship Cannon, Fires an HE Shell
      <Size x="5" y="2" z="5" />
      <ModelOffset x="0" y="0" z="0" />
      <Model>Models\Large\Mk2_Battleship_Cannon_Refresh_Surface.mwm</Model>
+
      <Components>
-       <Component Subtype="SteelPlate" Count="550" />
-       <Component Subtype="Construction" Count="1875" />
-       <Component Subtype="Computer" Count="90" />
-       <Component Subtype="SmallTube" Count="130" />
-       <Component Subtype="Motor" Count="90" />
-       <Component Subtype="LargeTube" Count="180" />
-       <Component Subtype="MetalGrid" Count="325" />
-       <Component Subtype="Construction" Count="1875" />
-       <Component Subtype="SteelPlate" Count="500" />
+
+		<Component Subtype="SteelPlate" Count="150" />
+		<Component Subtype="Construction" Count="200" />
+		<Component Subtype="GravityGenerator" Count="178" />
+		<Component Subtype="Computer" Count="100" />
+		<Component Subtype="SmallTube" Count="200" />
+		<Component Subtype="Motor" Count="100" />
+		<Component Subtype="LargeTube" Count="200" />
+		<Component Subtype="MetalGrid" Count="300" />
+		<Component Subtype="Construction" Count="1200" />
+		<Component Subtype="SteelPlate" Count="700" />
+
+	<!--
+        <Component Subtype="SteelPlate" Count="550" />
+        <Component Subtype="Construction" Count="1875" />
+        <Component Subtype="Computer" Count="90" />
+        <Component Subtype="SmallTube" Count="130" />
+        <Component Subtype="Motor" Count="90" />
+        <Component Subtype="LargeTube" Count="180" />
+        <Component Subtype="MetalGrid" Count="325" />
+        <Component Subtype="Construction" Count="1875" />
+        <Component Subtype="SteelPlate" Count="500" />-->
+
      </Components>
+
      <CriticalComponent Subtype="Motor" Index="0" />
+
      <MountPoints>
        <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="5.0" EndY="1.0"/>
        <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="5.0" EndY="1.0"/>
@@ -1816,6 +1882,17 @@ Lacks the Ability to Heal Shields and and Must Completely cool down after reachi
      <ModelOffset x="0" y="0" z="0" />
      <Model>Models\Large\NHI_Kinetic_Turret.mwm</Model>
      <Components>
+		<Component Subtype="SteelPlate" Count="150" />
+		<Component Subtype="Construction" Count="200" />
+		<Component Subtype="GravityGenerator" Count="150" />
+		<Component Subtype="Computer" Count="100" />
+		<Component Subtype="SmallTube" Count="200" />
+		<Component Subtype="Motor" Count="100" />
+		<Component Subtype="LargeTube" Count="200" />
+		<Component Subtype="MetalGrid" Count="300" />
+		<Component Subtype="Construction" Count="1200" />
+		<Component Subtype="SteelPlate" Count="1000" />
+	<!-- 
        <Component Subtype="SteelPlate" Count="550" />
        <Component Subtype="Construction" Count="1875" />
        <Component Subtype="Computer" Count="90" />
@@ -1824,7 +1901,7 @@ Lacks the Ability to Heal Shields and and Must Completely cool down after reachi
        <Component Subtype="LargeTube" Count="180" />
        <Component Subtype="MetalGrid" Count="325" />
        <Component Subtype="Construction" Count="1875" />
-       <Component Subtype="SteelPlate" Count="500" />
+       <Component Subtype="SteelPlate" Count="500" />-->
      </Components>
      <CriticalComponent Subtype="Motor" Index="0" />
      <MountPoints>
@@ -1838,7 +1915,7 @@ Lacks the Ability to Heal Shields and and Must Completely cool down after reachi
      <MirroringY>Z</MirroringY>
      <MirroringZ>Y</MirroringZ>
      <EdgeType>Light</EdgeType>
-     <BuildTimeSeconds>180</BuildTimeSeconds>
+     <BuildTimeSeconds>160</BuildTimeSeconds>
      <DisassembleRatio>2</DisassembleRatio>
      <DamageEffectName>Damage_WeapExpl_Damaged_Lite</DamageEffectName>
      <NavigationDefinition>Default</NavigationDefinition>
