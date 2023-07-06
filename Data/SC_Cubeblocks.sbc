@@ -11,6 +11,7 @@
      <DisplayName>Magnetic Coil Cannon Mk.2</DisplayName>
      <Description>
 A Turreted Magnetic Coil Cannon
+Exceptional Shield Damage and Range
 [Range: 6800]
 [Shell Speed: 1800m/s]
 [Damage Type: KIN]
@@ -23,15 +24,15 @@ A Turreted Magnetic Coil Cannon
      <ModelOffset x="0" y="0" z="0" />
      <Model>Models\Large\CoilCannon_Replacement.mwm</Model>
      <Components>
-       <Component Subtype="SteelPlate" Count="900" />
-       <Component Subtype="Construction" Count="300" />
-	     <Component Subtype="Computer" Count="120" />		 
-       <Component Subtype="MetalGrid" Count="640" />
-	     <Component Subtype="SmallTube" Count="200" />
-       <Component Subtype="Motor" Count="180" />
-       <Component Subtype="LargeTube" Count="50" />
-       <Component Subtype="Construction" Count="300" />
-       <Component Subtype="SteelPlate" Count="1100" />
+				<Component Subtype="Construction" Count="300" />
+				<Component Subtype="GravityGenerator" Count="300" />
+				<Component Subtype="Computer" Count="100" />
+				<Component Subtype="MetalGrid" Count="640" />
+				<Component Subtype="SmallTube" Count="200" />
+				<Component Subtype="Motor" Count="180" />
+				<Component Subtype="LargeTube" Count="50" />
+				<Component Subtype="Construction" Count="300" />
+				<Component Subtype="SteelPlate" Count="500" />
      </Components>
      <CriticalComponent Subtype="Computer" Index="0" />
      <MountPoints>
@@ -39,13 +40,13 @@ A Turreted Magnetic Coil Cannon
        <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="0.0" EndY="0.0"/>
        <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.0" EndY="0.0"/>
        <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="0.0" EndY="0.0"/>
-       <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="5.0" EndY="5.0"/>
+       <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="5.0" EndY="5.0" Default="true"/>
      </MountPoints>
      <BlockPairName>SC_Coil_Cannon_Block</BlockPairName>
      <MirroringY>Z</MirroringY>
      <MirroringZ>Y</MirroringZ>
      <EdgeType>Light</EdgeType>
-     <BuildTimeSeconds>80</BuildTimeSeconds>
+     <BuildTimeSeconds>160</BuildTimeSeconds>
      <DisassembleRatio>2</DisassembleRatio>
   <DamageEffectName>Damage_WeapExpl_Damaged_Lite</DamageEffectName>
      <NavigationDefinition>Default</NavigationDefinition>
