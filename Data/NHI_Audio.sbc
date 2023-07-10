@@ -16,7 +16,7 @@
       <MaxSounds>3</MaxSounds>
       <PitchVariation>25</PitchVariation>
       <DistantSounds>
-        <DistantSound DistanceCrossfade="20" Distance="800" Sound="Heimdall_Firesound_Distant" />
+        <DistantSound DistanceCrossfade="20" Distance="600" Sound="Heimdall_Firesound_Distant" />
       </DistantSounds>
       <Waves>
         <Wave Type="D3">
@@ -77,7 +77,7 @@
       <Loopable>true</Loopable>
       <PitchVariation>75</PitchVariation>
       <DistantSounds>
-        <DistantSound DistanceCrossfade="20" Distance="1200" Sound="Autocannon_Firesound_Dist" />
+        <DistantSound DistanceCrossfade="40" Distance="700" Sound="Autocannon_Firesound_Dist" />
       </DistantSounds>
       <Waves>
         <Wave Type="D3">
@@ -214,7 +214,7 @@
       <Loopable>false</Loopable>
      <PitchVariation>25</PitchVariation>
       <DistantSounds>
-        <DistantSound DistanceCrossfade="20" Distance="1400" Sound="Railgun_Fire_Dist" />
+        <DistantSound DistanceCrossfade="20" Distance="800" Sound="Railgun_Fire_Dist" />
       </DistantSounds>
       <Waves>
         <Wave Type="D3">
@@ -397,7 +397,7 @@
       <Loopable>false</Loopable>
       <PitchVariation>75</PitchVariation>
       <DistantSounds>
-        <DistantSound DistanceCrossfade="20" Distance="1200" Sound="Gatling_Laser_Firesound_Dist" />
+        <DistantSound DistanceCrossfade="20" Distance="800" Sound="Gatling_Laser_Firesound_Dist" />
       </DistantSounds>
       <Waves>
         <Wave Type="D3">
@@ -415,7 +415,7 @@
       </Id>
       <Category>SHOT</Category>
       <MaxDistance>3600</MaxDistance>
-  <Volume>3</Volume>
+  <Volume>2</Volume>
       <Loopable>false</Loopable>	  
       
       <PitchVariation>25</PitchVariation>
@@ -536,11 +536,11 @@
       </Id>
       <Category>SHOT</Category>
       <MaxDistance>7000</MaxDistance>
-      <Volume>0.6</Volume>
+      <Volume>1</Volume>
       <Loopable>false</Loopable>
-      <PitchVariation>15</PitchVariation>
+      <PitchVariation>75</PitchVariation>
       <DistantSounds>
-        <DistantSound DistanceCrossfade="20" Distance="1900" Sound="Battleship_Cannon_Firesound_Dist" />
+        <DistantSound DistanceCrossfade="20" Distance="800" Sound="Battleship_Cannon_Firesound_Dist" />
       </DistantSounds>
       <Waves>
         <Wave Type="D3">
@@ -558,7 +558,7 @@
       </Id>
       <Category>SHOT</Category>
       <MaxDistance>7000</MaxDistance>
-      <Volume>0.4</Volume>
+      <Volume>0.9</Volume>
       <Loopable>false</Loopable>
 
       <PitchVariation>25</PitchVariation>
