@@ -73,7 +73,7 @@
       </Id>
       <Category>SHOT</Category>
       <MaxDistance>4000</MaxDistance>
-      <Volume>0.40</Volume>
+      <Volume>0.33</Volume>
       <Loopable>true</Loopable>
       <PitchVariation>75</PitchVariation>
       <DistantSounds>
@@ -95,7 +95,7 @@
       </Id>
       <Category>SHOT</Category>
       <MaxDistance>4000</MaxDistance>
-      <Volume>0.40</Volume>
+      <Volume>0.33</Volume>
       <Loopable>true</Loopable>
 
       <PitchVariation>75</PitchVariation>
@@ -536,11 +536,11 @@
       </Id>
       <Category>SHOT</Category>
       <MaxDistance>7000</MaxDistance>
-      <Volume>1.5</Volume>
+      <Volume>1.85</Volume>
       <Loopable>false</Loopable>
       <PitchVariation>75</PitchVariation>
       <DistantSounds>
-        <DistantSound DistanceCrossfade="20" Distance="800" Sound="Battleship_Cannon_Firesound_Dist" />
+        <DistantSound DistanceCrossfade="20" Distance="750" Sound="Battleship_Cannon_Firesound_Dist" />
       </DistantSounds>
       <Waves>
         <Wave Type="D3">
@@ -558,7 +558,7 @@
       </Id>
       <Category>SHOT</Category>
       <MaxDistance>7000</MaxDistance>
-      <Volume>1.2</Volume>
+      <Volume>1.4</Volume>
       <Loopable>false</Loopable>
 
       <PitchVariation>25</PitchVariation>
