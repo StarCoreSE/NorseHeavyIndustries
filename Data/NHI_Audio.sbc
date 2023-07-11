@@ -72,12 +72,12 @@
         <SubtypeId>Autocannon_Firesound</SubtypeId>
       </Id>
       <Category>SHOT</Category>
-      <MaxDistance>5000</MaxDistance>
-      <Volume>0.50</Volume>
+      <MaxDistance>4000</MaxDistance>
+      <Volume>0.40</Volume>
       <Loopable>true</Loopable>
       <PitchVariation>75</PitchVariation>
       <DistantSounds>
-        <DistantSound DistanceCrossfade="40" Distance="700" Sound="Autocannon_Firesound_Dist" />
+        <DistantSound DistanceCrossfade="40" Distance="650" Sound="Autocannon_Firesound_Dist" />
       </DistantSounds>
       <Waves>
         <Wave Type="D3">
@@ -94,11 +94,11 @@
         <SubtypeId>Autocannon_Firesound_Dist</SubtypeId>
       </Id>
       <Category>SHOT</Category>
-      <MaxDistance>5000</MaxDistance>
-      <Volume>0.50</Volume>
+      <MaxDistance>4000</MaxDistance>
+      <Volume>0.40</Volume>
       <Loopable>true</Loopable>
 
-      <PitchVariation>25</PitchVariation>
+      <PitchVariation>75</PitchVariation>
       <Waves>
         <Wave Type="D3">
 
@@ -292,7 +292,7 @@
     </Id>
     <Category>SHOT</Category>
     <MaxDistance>800</MaxDistance>
-    <Volume>1.25</Volume>
+    <Volume>0.8</Volume>
     <Loopable>true</Loopable>
     <PitchVariation>150</PitchVariation>
     <Waves>
@@ -312,7 +312,7 @@
       </Id>
       <Category>SHOT</Category>
       <MaxDistance>5000</MaxDistance>
-      <Volume>5</Volume>
+      <Volume>3</Volume>
       <Loopable>false</Loopable>
       <PitchVariation>50</PitchVariation>
       <Waves>
@@ -536,7 +536,7 @@
       </Id>
       <Category>SHOT</Category>
       <MaxDistance>7000</MaxDistance>
-      <Volume>1</Volume>
+      <Volume>1.5</Volume>
       <Loopable>false</Loopable>
       <PitchVariation>75</PitchVariation>
       <DistantSounds>
@@ -558,7 +558,7 @@
       </Id>
       <Category>SHOT</Category>
       <MaxDistance>7000</MaxDistance>
-      <Volume>0.9</Volume>
+      <Volume>1.2</Volume>
       <Loopable>false</Loopable>
 
       <PitchVariation>25</PitchVariation>
