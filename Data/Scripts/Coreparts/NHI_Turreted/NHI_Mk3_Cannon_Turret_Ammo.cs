@@ -1106,7 +1106,11 @@ namespace Scripts
                         },
                     },
                 },
-                Tracer = new TracerBaseDef
+                Lines = new LineDef
+                {
+                    ColorVariance = Random(start: 0.75f, end: 2f), // multiply the color by random values within range.
+                    WidthVariance = Random(start: 0f, end: 0f), // adds random value to default width (negatives shrinks width)
+                    Tracer = new TracerBaseDef
                     {
                         Enable = true,
                         Length = 50f, //
