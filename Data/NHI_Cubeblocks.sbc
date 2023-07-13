@@ -1399,7 +1399,7 @@ Lacks the Ability to Heal Shields and and Must Completely cool down after reachi
    </Definition>
 
 <!-- Fixed Small Railgun -->
-   <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+   <!--<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
      <Id>
        <TypeId>ConveyorSorter</TypeId>
        <SubtypeId>NHI_Fixed_Light_Railgun</SubtypeId>
@@ -1445,10 +1445,10 @@ Lacks the Ability to Heal Shields and and Must Completely cool down after reachi
      <ElevationSpeed>0.0002 </ElevationSpeed>
      <MinFov>0.1</MinFov>
      <MaxFov>1.04719755</MaxFov>
-   </Definition>
+   </Definition> -->
 
 <!-- Fixed Large Railgun -->
-   <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+   <!--<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
      <Id>
        <TypeId>ConveyorSorter</TypeId>
        <SubtypeId>NHI_Fixed_Heavy_Railgun</SubtypeId>
@@ -1494,7 +1494,7 @@ Lacks the Ability to Heal Shields and and Must Completely cool down after reachi
      <ElevationSpeed>0.0002 </ElevationSpeed>
      <MinFov>0.1</MinFov>
      <MaxFov>1.04719755</MaxFov>
-   </Definition>
+   </Definition> -->
 
    
    
@@ -1830,7 +1830,7 @@ Lacks the Ability to Heal Shields and and Must Completely cool down after reachi
    <Description>
    L Bozo, Cope.
    </Description>
-   <Icon>Textures\GUI\Icons\Fenrir.dds</Icon>
+   <Icon>Textures\GUI\Icons\Fixed_Light_Laser.dds</Icon>
    <CubeSize>Large</CubeSize>
    <GuiVisible>true</GuiVisible>
    <BlockTopology>TriangleMesh</BlockTopology>
