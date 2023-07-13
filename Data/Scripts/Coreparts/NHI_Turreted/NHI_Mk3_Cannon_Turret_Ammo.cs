@@ -343,8 +343,8 @@ namespace Scripts
                     {
                         Enable = true,
                         Length = 50f, //
-                        Width = 0.9f, //
-                        Color = Color(red: 7, green: 12, blue: 12f, alpha: 0.33f), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Width = 0.7f, //
+                        Color = Color(red: 7, green: 12, blue: 12f, alpha: 0.22f), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
@@ -1106,20 +1106,16 @@ namespace Scripts
                         },
                     },
                 },
-                Lines = new LineDef
-                {
-                    ColorVariance = Random(start: 0.75f, end: 2f), // multiply the color by random values within range.
-                    WidthVariance = Random(start: 0f, end: 0f), // adds random value to default width (negatives shrinks width)
-                    Tracer = new TracerBaseDef
+                Tracer = new TracerBaseDef
                     {
                         Enable = true,
-                        Length = 300f, //
-                        Width = 2.2f, //
-                        Color = Color(red: 3f, green: 2, blue: 6, alpha: 0.8f), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Length = 50f, //
+                        Width = 0.7f, //
+                        Color = Color(red: 12, green: 7, blue: 12f, alpha: 0.22f), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
-                        VisualFadeEnd = 30, // How many ticks after fade began before it will be invisible.
+                        VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
-                            "WeaponLaser", // Please always have this Line set, if this Section is enabled.
+                            "ProjectileTrailLine", // Please always have this Line set, if this Section is enabled.
                         },
                         TextureMode = Normal, // Normal, Cycle, Chaos, Wave
                         Segmentation = new SegmentDef
@@ -1131,7 +1127,7 @@ namespace Scripts
                             SegmentLength = 0f, // Uses the values below.
                             SegmentGap = 0f, // Uses Tracer textures and values
                             Speed = 1f, // meters per second
-                            Color = Color(red: 9, green: 9, blue: 6f, alpha: 1),
+                            Color = Color(red: 1, green: 2, blue: 2.5f, alpha: 1),
                             WidthMultiplier = 1f,
                             Reverse = false,
                             UseLineVariance = true,
@@ -1146,11 +1142,11 @@ namespace Scripts
                             "WeaponLaser", // Please always have this Line set, if this Section is enabled.
                         },
                         TextureMode = Normal,
-                        DecayTime = 20, // In Ticks. 1 = 1 Additional Tracer generated per motion, 33 is 33 lines drawn per projectile. Keep this number low.
-                        Color = Color(red: 3f, green: 2, blue: 6, alpha: 0.5f),
+                        DecayTime = 6, // In Ticks. 1 = 1 Additional Tracer generated per motion, 33 is 33 lines drawn per projectile. Keep this number low.
+                        Color = Color(red: 6, green: 4, blue: 6, alpha: 1f),
                         Back = false,
-                        CustomWidth = 0f,
-                        UseWidthVariance = true,
+                        CustomWidth = 0.35f,
+                        UseWidthVariance = false,
                         UseColorFade = true,
                     },
                     OffsetEffect = new OffsetEffectDef
