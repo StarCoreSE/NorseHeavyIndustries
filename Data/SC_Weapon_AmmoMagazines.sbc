@@ -9,7 +9,8 @@
         <SubtypeId>EMSlug460mm</SubtypeId>
       </Id>
       <DisplayName>460mm Magnetic Slug</DisplayName>
-      <Icon>Textures\GUI\Icons\ammo\RailShell.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+      <!-- <Icon>Textures\GUI\Icons\ammo\RailShell.dds</Icon>-->
       <Size>
         <X>0.25</X>
         <Y>0.2</Y>
@@ -23,7 +24,8 @@
       <Volume>138</Volume>
       <!-- 138 per shell -->
       <!-- In Liters -->
-      <Model>Models\Weapons\BFG_Round.mwm</Model>
+      <Model>Models\Weapons\AutocanonShellBox.mwm</Model>
+      <!-- <Model>Models\Weapons\BFG_Round.mwm</Model>-->
       <Capacity>1</Capacity>
       <AmmoDefinitionId Subtype="Energy" />
     </AmmoMagazine>
